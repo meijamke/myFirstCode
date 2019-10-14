@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">chapter03-basic-view</string>
+    <string name="button_description_text_view">以下是实现按钮点击的3种方法</string>
+    <string name="button_onClick_register1">在xml中添加onClick属性</string>
+    <string name="button_onClick_register2">通过匿名类注册监听器</string>
+    <string name="button_onClick_register3">通过实现接口重写onClick方法</string>
+    <string name="replace_image">一键切换图片</string>
+    <string name="add_progress">点击增加进度条进度</string>
+    <string name="pop_alert_dialog">点击按钮弹出对话框</string>
+    <string name="alert_dialog_positive">确认</string>
+    <string name="alert_dialog_pos_message">你点击了确认</string>
+    <string name="alert_dialog_negative">取消</string>
+    <string name="alert_dialog_neg_message">你点击了取消</string>
+    <string name="pop_progress_dialog">点击按钮弹出进度对话框</string>
+
+</resources>
