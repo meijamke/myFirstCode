@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Exercise-Chapter02</string>
+    <string name="menu_tips_text_view">右上角是菜单栏</string>
+    <string name="action_add">add</string>
+    <string name="action_remove">remove</string>
+    <string name="toast_button">Toast Button</string>
+    <string name="back_button">Back Button</string>
+    <string name="implicit_intent_button">Implicit Intent Button</string>
+    <string name="web_button">Web Button</string>
+    <string name="dial_button">Dial Button</string>
+    <string name="send_data_button">Send Data</string>
+    <string name="return_data_button">Return Data</string>
+    <string name="save_bundle_text_view">Feel free to go to other activity,just let them go</string>
+    <string name="finish_all_activity_button">Finish All Activity</string>
+</resources>
