@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">self-define-widget</string>
+    <string name="action_title">Action Title</string>
+    <string name="action_edit">you click edit button</string>
+</resources>
