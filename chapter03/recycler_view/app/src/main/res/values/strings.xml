@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">recycler_view</string>
+    <string name="linear_vertical_recycler_view">Linear vertical RecyclerView</string>
+    <string name="linear_horizontal_recycler_view">Linear horizontal RecyclerView</string>
+    <string name="grid_recycler_view">Grid RecyclerView</string>
+    <string name="staggered_recycler_view">Staggered RecyclerView</string>
+    <string name="ac_unit">AC-Unit</string>
+    <string name="airport_shuttle">Airport-Shuttle</string>
+    <string name="all_inclusive">All-Inclusive</string>
+    <string name="beach_access">Beach-Access</string>
+    <string name="business_center">Business-Center</string>
+    <string name="casino">Casino</string>
+    <string name="child_care">Child-Care</string>
+    <string name="child_friendly">Child-Friendly</string>
+    <string name="fitness_center">Fitness-Center</string>
+    <string name="afree_breakfast">Free-Breakfast</string>
 </resources>
