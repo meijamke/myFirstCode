@@ -6,7 +6,6 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 
-import com.example.force_offline.LoginActivity;
 import com.example.force_offline.Utilities.ActivityCollectorUtils;
 import com.example.force_offline.Utilities.ExplicitIntentUtils;
 

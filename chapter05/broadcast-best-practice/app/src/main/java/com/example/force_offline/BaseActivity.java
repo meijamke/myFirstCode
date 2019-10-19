@@ -1,6 +1,5 @@
 package com.example.force_offline;
 
-import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -13,6 +12,7 @@ import com.example.force_offline.broadcast.ForceOfflineBroadcast;
 public class BaseActivity extends AppCompatActivity {
 
     private ForceOfflineBroadcast forceOfflineBroadcast;
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,17 +28,17 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        forceOfflineBroadcast=new ForceOfflineBroadcast();
-        IntentFilter intentFilter=new IntentFilter(BroadcastUtils.ACTION_FORCE_OFFLINE);
-        registerReceiver(forceOfflineBroadcast,intentFilter);
+        forceOfflineBroadcast = new ForceOfflineBroadcast();
+        IntentFilter intentFilter = new IntentFilter(BroadcastUtils.ACTION_FORCE_OFFLINE);
+        registerReceiver(forceOfflineBroadcast, intentFilter);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-        if (forceOfflineBroadcast!=null) {
+        if (forceOfflineBroadcast != null) {
             unregisterReceiver(forceOfflineBroadcast);
-            forceOfflineBroadcast=null;
+            forceOfflineBroadcast = null;
         }
     }
 }

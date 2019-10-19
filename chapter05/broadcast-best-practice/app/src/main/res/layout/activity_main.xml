@@ -9,9 +9,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/force_offline"
-        android:textAllCaps="false"
         android:background="@android:color/holo_orange_dark"
-        android:onClick="ForceOffline"/>
+        android:onClick="ForceOffline"
+        android:text="@string/force_offline"
+        android:textAllCaps="false" />
 
 </FrameLayout>
