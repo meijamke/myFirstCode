@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Broadcast</string>
+    <string name="network_status_dynamic_broadcast">A dynamic broadcast, don\'t exit the app and try to change your network and you will know your network status</string>
+    <string name="boot_completed_static_broadcast">A static broadcast, even exit the app it can still work, you can exit the app and then reboot the device</string>
+    <string name="my_standard_broadcast">Send My Standard Broadcast</string>
+    <string name="my_ordered_broadcast">Send My Ordered Broadcast</string>
+    <string name="my_local_broadcast">Send My Local Broadcast</string>
+</resources>
