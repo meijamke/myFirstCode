@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">fragment-usage</string>
+    <string name="right_fragment">This is right fragment</string>
+    <string name="replace_right_fragment">Replace Right Fragment</string>
+    <string name="another_right_frag">Another Right Fragment</string>
+</resources>
